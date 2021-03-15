@@ -1,6 +1,10 @@
 # Sequence.ts
 
-Deno-compatible iterable piping and processing utility.
+Iterable piping and processing utility for Deno
+
+Create a new sequence and use .map(), .filter(), etc.
+
+All operations a lazily executed when the iterable is consumed using .collect(), .join(), or .consume(). 
 
 ## Usage
 
